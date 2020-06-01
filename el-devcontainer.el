@@ -1,3 +1,7 @@
-(defun open-in-container (devcontainer-json-path) "Opens the current project in a container for development" ("test")) 
+;;;###autoload
+(defun open-in-container (devcontainer-json-path)
+  "Opens the current project in a container for development"
+  (interactive)
+  ("test")) 
 
 (provide 'el-devcontainer)
